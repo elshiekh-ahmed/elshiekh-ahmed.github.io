@@ -15,8 +15,7 @@ Initially, the dataset trained may have to be limited to certain leagues/ divisi
 
 ## Project Goals
 1. Being able to predict “upset” wins through finding a pattern within previous teams where the odds were stacked against them and they still won
-2. Allow the data to be live and dynamically added, as the sports world is constantly changing.
-2.5 Updating which players play on what team, player’s form, team’s overall form, etc.
+2. Allow the data to be live and dynamically added, as the sports world is constantly changing (Updating which players play on what team, player’s form, team’s overall form, etc.)
 3. Being able to accurately predict the scoreline instead of stating which team will win
 4. 70% win accuracy
 5. Get rich off of sports betting
