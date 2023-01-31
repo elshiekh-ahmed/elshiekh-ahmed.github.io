@@ -1,4 +1,4 @@
-# Title: Soccer Match Predictor
+# Soccer Match Predictor
 
 ![](images/soccer-clipart.png)
 
