@@ -1,6 +1,6 @@
 # Soccer Match Predictor - Introduction Rough Draft
 
-![](images/soccer-clipart.png)
+![](images/soccer-cartoon.gif)
 
 ### Team members: Anna, Elshiekh, Alan, Yotam
 
