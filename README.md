@@ -33,6 +33,8 @@ We obtained the dataset from kaggle and need to make sure it looks clean and tak
 
 We also removed data that was formatted in XML and the predicted odds from various betting companies. Our dataset then contains the ids for the country, home and away team, total goals scored, home wins and away wins percentage, and a column of 0s and 1s where 1s represent a home team win.
 
+We are using pyTorch’s Neural Network library, from which we will most likely be using the feed forward architecture. We will be creating different models and comparing the accuracy of using different features.
+
 We are using pyTorch’s Neural Network library, from which we will most likely be using the ANN architecture.
 
 For our model, we are hoping to train the neural network to accurately predict whether Team A or Team B will win, or if the result will be a tie.
@@ -40,6 +42,10 @@ For our model, we are hoping to train the neural network to accurately predict w
 The end result we are hoping for is a model that when asked for the outcome of a soccer match would seem like a very well informed sports analyst.
 
 Possible pitfalls we see in our model is low or inaccurate classification.
+
+
+## Discussion
+We used the European Soccer Database and filtered out the teams that did not belong to England, France, Italy, Spain, or Germany. We created 2 models, a simple feedforward neural network that only considers the goals scored by both teams and a more complex model that factors in home win percentage, face-to-face history, and player stats. It should be noted that player stats are often not a good measure for predicting the outcome. Roland Shum in Neural Networks Football Result Prediction points out that player morale, a stat that cannot be measured, often plays a role in determining how a player does in a given match. Our comparison will focus on the accuracy of these models to those of other models built. Running the simple model produces an accuracy of ~55%. Compared to our related works our results were significantly worse. We yielded an accuracy of below 60% for our validation dataset while many optimized models in the field can consistently predict with above 70% accuracy. We are intending on using a classification model architecture and building different combinations of features for further experiments.
 
 
 ## Works Cited
