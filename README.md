@@ -3,6 +3,7 @@
 <!-- ![](images/soccer-cartoon.gif) -->
 <p align="center">
   <img width="460" height="300" src="images/soccer-cartoon.gif">
+  <em>Soccer Gif</em>
 </p>
 
 ### Team members: Anna, Elshiekh, Alan, Yotam
